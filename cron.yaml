@@ -1,0 +1,6 @@
+|
+  cron:
+    description: Daily Cloud Firestore Export
+    url: '/cloud-firestore-export?outputUriPrefix=gs://testimport-project.appspot.com'
+    target: cloud-firestore-admin
+    schedule: every 24 hours
